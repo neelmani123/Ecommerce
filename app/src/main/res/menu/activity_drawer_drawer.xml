@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/offer_icon_svg"
+            android:title="Offers" />
+        <item
+            android:id="@+id/nav_mobile"
+            android:icon="@drawable/mobile_icon_svg"
+            android:title="Mobile" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/electronic_icon_svg"
+            android:title="Electronis" />
+
+        <item
+            android:id="@+id/nav_tv"
+            android:icon="@drawable/tv_icon_svg"
+            android:title="TV " />
+        <item
+            android:id="@+id/nav_home_furniture"
+            android:icon="@drawable/furniture_icon_svg"
+            android:title="Home And Furniture" />
+
+    </group>
+
+</menu>
